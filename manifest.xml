@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--Device tree-->
-  <project name="AzzyC/android_device_samsung_star2lte" path="device/samsung/star2lte" remote="github" revision="android-9.0"/>
-  <project name="AzzyC/android_device_samsung_starlte" path="device/samsung/starlte" remote="github" revision="android-9.0"/>
-  <project name="AzzyC/android_device_samsung_universal9810-common" path="device/samsung/universal9810-common" remote="github" revision="android-9.0"/>
+  <project name="AzzyC/android_device_samsung_star2lte" path="device/samsung/star2lte" remote="github" clone-depth="1" revision="android-9.0"/>
+  <project name="AzzyC/android_device_samsung_starlte" path="device/samsung/starlte" remote="github" clone-depth="1" revision="android-9.0"/>
+  <project name="AzzyC/android_device_samsung_universal9810-common" path="device/samsung/universal9810-common" remote="github" clone-depth="1" revision="android-9.0"/>
   <!--Hardware-->
-  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-16.0"/>
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" clone-depth="1" revision="lineage-16.0"/>
   <!--Kernel-->
-  <project name="yarpiin/android_kernel_samsung_universal9810-star" path="kernel/samsung/universal9810-star" remote="github" revision="pie"/>
+  <project name="yarpiin/android_kernel_samsung_universal9810-star" path="kernel/samsung/universal9810-star" remote="github" clone-depth="1" revision="pie"/>
   <!--Blobs-->
-  <project name="synt4x93/proprietary_vendor_samsung_universal9810-common" path="vendor/samsung/universal9810-common" remote="github" revision="lineage-16.0"/>
+  <project name="synt4x93/proprietary_vendor_samsung_universal9810-common" path="vendor/samsung/universal9810-common" remote="github" clone-depth="1" revision="lineage-16.0"/>
 </manifest>
