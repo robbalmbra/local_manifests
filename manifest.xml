@@ -8,7 +8,7 @@
   <!--Hardware-->
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" clone-depth="1" revision="lineage-17.1"/>
   <!--Kernel-->
-  <project name="synt4x93/android_kernel_samsung_universal9810" path="kernel/samsung/universal9810" remote="github" clone-depth="1" revision="lineage-17.1"/>
+  <project name="yarpiin/White-Wolf-Uni-LOS" path="kernel/samsung/universal9810" remote="github" clone-depth="1" revision="master"/>
   <!--Blobs-->
-  <project name="synt4x93/proprietary_vendor_samsung" path="vendor/samsung" remote="github" clone-depth="1" revision="lineage-17.1"/>
+  <project name="AzzyC/proprietary_vendor_samsung" path="vendor/samsung" remote="github" clone-depth="1" revision="lineage-17.1"/>
 </manifest>
