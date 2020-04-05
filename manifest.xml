@@ -11,4 +11,9 @@
   <project name="yarpiin/White-Wolf-Uni-LOS" path="kernel/samsung/universal9810" remote="github" clone-depth="1" revision="master"/>
   <!--Blobs-->
   <project name="AzzyC/proprietary_vendor_samsung" path="vendor/samsung" remote="github" clone-depth="1" revision="lineage-17.1"/>
+  <!--OpenGApps-->
+  <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"/>
+  <project name="opengapps/aosp_build" path="vendor/opengapps/build" remote="github" clone-depth="1" revision="master"/>
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab"/>
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab"/>
 </manifest>
