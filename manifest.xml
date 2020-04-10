@@ -8,6 +8,9 @@
   <remote name="github"
           fetch="https://github.com/" />
   
+  <!--Remove stuff-->
+  <remove-project name="packages_apps_Updates" />
+  
   <!--Device tree-->
   <project name="synt4x93/android_device_samsung_star2lte" path="device/samsung/star2lte" remote="github" clone-depth="1" revision="lineage-17.1"/>
   <project name="synt4x93/android_device_samsung_starlte" path="device/samsung/starlte" remote="github" clone-depth="1" revision="lineage-17.1"/>
