@@ -20,5 +20,5 @@
   <!--Blobs-->
   <project name="synt4x93/proprietary_vendor_samsung" path="vendor/samsung" remote="github" clone-depth="1" revision="lineage-17.1"/>
   <!--Packages-->
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="robbalmbra" />
+  <project name="packages_apps_Updates" path="packages/apps/Updates" remote="robbalmbra" />
 </manifest>
