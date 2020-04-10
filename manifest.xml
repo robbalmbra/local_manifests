@@ -2,6 +2,7 @@
 <manifest>
   
   <remote name="robbalmbra"
+          revision="ten"
           fetch="https://github.com/robbalmbra" />
   
   <remote name="github"
