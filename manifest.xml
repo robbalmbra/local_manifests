@@ -7,10 +7,7 @@
   
   <remote name="github"
           fetch="https://github.com/" />
-  
-  <!--Remove stuff-->
-  <remove-project name="packages_apps_Updates" />
-  
+    
   <!--Device tree-->
   <project name="synt4x93/android_device_samsung_star2lte" path="device/samsung/star2lte" remote="github" clone-depth="1" revision="lineage-17.1"/>
   <project name="synt4x93/android_device_samsung_starlte" path="device/samsung/starlte" remote="github" clone-depth="1" revision="lineage-17.1"/>
@@ -22,6 +19,4 @@
   <project name="synt4x93/android_kernel_samsung_universal9810" path="kernel/samsung/universal9810" remote="github" clone-depth="1" revision="lineage-17.1"/>
   <!--Blobs-->
   <project name="synt4x93/proprietary_vendor_samsung" path="vendor/samsung" remote="github" clone-depth="1" revision="lineage-17.1"/>
-  <!--Packages-->
-  <project name="packages_apps_Updates" path="packages/apps/Updates" remote="robbalmbra" />
 </manifest>
