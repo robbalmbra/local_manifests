@@ -5,18 +5,18 @@
           revision="ten"
           fetch="https://github.com/robbalmbra" />
   
-  <remote name="github"
+  <remote name="githubr"
           fetch="https://github.com/" />
     
   <!--Device tree-->
-  <project name="synt4x93/android_device_samsung_star2lte" path="device/samsung/star2lte" remote="github" clone-depth="1" revision="lineage-17.1"/>
-  <project name="synt4x93/android_device_samsung_starlte" path="device/samsung/starlte" remote="github" clone-depth="1" revision="lineage-17.1"/>
-  <project name="synt4x93/android_device_samsung_crownlte" path="device/samsung/crownlte" remote="github" clone-depth="1" revision="lineage-17.1"/>
-  <project name="synt4x93/android_device_samsung_universal9810-common" path="device/samsung/universal9810-common" remote="github" clone-depth="1" revision="lineage-17.1"/>
+  <project name="synt4x93/android_device_samsung_star2lte" path="device/samsung/star2lte" remote="githubr" clone-depth="1" revision="lineage-17.1"/>
+  <project name="synt4x93/android_device_samsung_starlte" path="device/samsung/starlte" remote="githubr" clone-depth="1" revision="lineage-17.1"/>
+  <project name="synt4x93/android_device_samsung_crownlte" path="device/samsung/crownlte" remote="githubr" clone-depth="1" revision="lineage-17.1"/>
+  <project name="synt4x93/android_device_samsung_universal9810-common" path="device/samsung/universal9810-common" remote="githubr" clone-depth="1" revision="lineage-17.1"/>
   <!--Hardware-->
-  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" clone-depth="1" revision="lineage-17.1"/>
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="githubr" clone-depth="1" revision="lineage-17.1"/>
   <!--Kernel-->
-  <project name="LineageOS/android_kernel_samsung_universal9810" path="kernel/samsung/universal9810" remote="github" clone-depth="1" revision="lineage-17.1"/>
+  <project name="LineageOS/android_kernel_samsung_universal9810" path="kernel/samsung/universal9810" remote="githubr" clone-depth="1" revision="lineage-17.1"/>
   <!--Blobs-->
-  <project name="synt4x93/proprietary_vendor_samsung" path="vendor/samsung" remote="github" clone-depth="1" revision="lineage-17.1"/>
+  <project name="synt4x93/proprietary_vendor_samsung" path="vendor/samsung" remote="githubr" clone-depth="1" revision="lineage-17.1"/>
 </manifest>
