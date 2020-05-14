@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--Device tree-->
-  <project name="robbalmbra/android_device_samsung_star2lte" path="device/samsung/star2lte" remote="github" clone-depth="1" revision="lineage-17.1"/>
-  <project name="robbalmbra/android_device_samsung_starlte" path="device/samsung/starlte" remote="github" clone-depth="1" revision="lineage-17.1"/>
-  <project name="robbalmbra/android_device_samsung_crownlte" path="device/samsung/crownlte" remote="github" clone-depth="1" revision="lineage-17.1"/>
-  <project name="robbalmbra/android_device_samsung_universal9810-common" path="device/samsung/universal9810-common" remote="github" clone-depth="1" revision="lineage-17.1"/>
+  <project name="robbalmbra/android_device_samsung_star2lte" path="device/samsung/star2lte" remote="github" clone-depth="1" revision="evox"/>
+  <project name="robbalmbra/android_device_samsung_starlte" path="device/samsung/starlte" remote="github" clone-depth="1" revision="evox"/>
+  <project name="robbalmbra/android_device_samsung_crownlte" path="device/samsung/crownlte" remote="github" clone-depth="1" revision="evox"/>
+  <project name="robbalmbra/android_device_samsung_universal9810-common" path="device/samsung/universal9810-common" remote="github" clone-depth="1" revision="evox"/>
   <!--Hardware-->
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" clone-depth="1" revision="lineage-17.1"/>
   <!--Kernel-->
-  <project name="robbalmbra/android_kernel_samsung_universal9810" path="kernel/samsung/universal9810" remote="github" clone-depth="1" revision="lineage-17.1"/>
+  <project name="robbalmbra/android_kernel_samsung_universal9810" path="kernel/samsung/universal9810" remote="github" clone-depth="1" revision="evox"/>
   <!--Blobs-->
-  <project name="robbalmbra/proprietary_vendor_samsung" path="vendor/samsung" remote="github" clone-depth="1" revision="lineage-17.1"/>
+  <project name="robbalmbra/proprietary_vendor_samsung" path="vendor/samsung" remote="github" clone-depth="1" revision="evox"/>
 </manifest>
