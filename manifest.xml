@@ -8,7 +8,7 @@
   <!--Hardware-->
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" clone-depth="1" revision="lineage-17.1"/>
   <!--Kernel-->
-  <project name="robbalmbra/android_kernel_samsung_universal9810" path="kernel/samsung/universal9810" remote="github" clone-depth="1" revision="lineage-17.1"/>
+  <project name="LineageOS/android_kernel_samsung_universal9810" path="kernel/samsung/universal9810" remote="github" clone-depth="1" revision="lineage-17.1"/>
   <!--Blobs-->
   <project name="robbalmbra/proprietary_vendor_samsung" path="vendor/samsung" remote="github" clone-depth="1" revision="evox"/>
 </manifest>
