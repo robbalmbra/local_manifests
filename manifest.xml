@@ -12,4 +12,3 @@
   <!--Blobs-->
   <project name="synt4x93/proprietary_vendor_samsung" path="vendor/samsung" remote="github" clone-depth="1" revision="lineage-17.1"/>
 </manifest>
-
