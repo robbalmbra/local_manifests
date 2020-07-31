@@ -6,7 +6,7 @@
   <project name="synt4x93/android_device_samsung_crownlte" path="device/samsung/crownlte" remote="github" clone-depth="1" revision="lineage-17.1"/>
   <project name="synt4x93/android_device_samsung_universal9810-common" path="device/samsung/universal9810-common" remote="github" clone-depth="1" revision="lineage-17.1"/>
   <!--Hardware-->
-  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" clone-depth="1" revision="lineage-17.1"/>
+  <project name="PixelExperience-Devices/hardware_samsung" path="hardware/samsung" remote="github" clone-depth="1" revision="ten"/>
   <!--Kernel-->
   <project name="synt4x93/android_kernel_samsung_universal9810" path="kernel/samsung/universal9810" remote="github" clone-depth="1" revision="lineage-17.1"/>
   <!--Blobs-->
